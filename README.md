@@ -16,6 +16,9 @@ You can start editing the popup by modifying `popup.tsx`. It should auto-update 
 
 For further guidance, [visit our Documentation](https://docs.plasmo.com/)
 
+## For testing use pdf url
+[Test Resume PDF](https://vlolsgdgrjaamokcoyhn.supabase.co/storage/v1/object/public/public2/public/Ankur_Sarkar_Resume_v27omega-1.pdf)
+
 ## Making production build
 
 Run the following:
