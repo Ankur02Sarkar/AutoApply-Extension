@@ -1,0 +1,150 @@
+.new-tab {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  color: #333;
+  display: block;
+  font-size: 12px;
+  line-height: 16px;
+  margin: 0 0 10px;
+  padding: 10px;
+  position: relative;
+  text-decoration: none;
+  width: 100%;
+}
+
+/* Global styles */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Welcome screen */
+.welcome-screen {
+  text-align: center;
+  padding: 12px 8px;
+}
+
+.welcome-screen h1 {
+  font-size: 1.5rem;
+  margin-bottom: 12px;
+}
+
+.welcome-screen p {
+  color: #4b5563;
+  margin-bottom: 16px;
+}
+
+/* Not supported screen */
+.not-supported-screen {
+  text-align: center;
+  padding: 12px 8px;
+}
+
+.not-supported-screen h1 {
+  font-size: 1.5rem;
+  color: #dc2626;
+  margin-bottom: 12px;
+}
+
+.not-supported-screen p {
+  color: #4b5563;
+  margin-bottom: 12px;
+}
+
+/* Buttons */
+.primary-button {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.primary-button:hover {
+  background-color: #1d4ed8;
+}
+
+/* File upload section */
+.upload-section {
+  width: 100%;
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.file-input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.file-label {
+  display: inline-block;
+  background-color: #f3f4f6;
+  color: #4b5563;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  text-align: center;
+  border: 1px dashed #d1d5db;
+}
+
+.file-label:hover {
+  background-color: #e5e7eb;
+}
+
+.file-input {
+  display: none;
+}
+
+.file-name {
+  font-size: 12px;
+  color: #4b5563;
+  word-break: break-all;
+}
+
+.url-input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.url-input-container p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.url-input {
+  padding: 8px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.url-input:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+/* Update primary button */
+.primary-button:disabled {
+  background-color: #93c5fd;
+  cursor: not-allowed;
+}
